@@ -60,6 +60,7 @@ CUDA_GCC_VERSIONS: VersionMap = {
     '11.5': ((6, 0, 0), (12, 0)),
     '11.6': ((6, 0, 0), (12, 0)),
     '11.7': ((6, 0, 0), (12, 0)),
+    '11.8': ((6, 0, 0), (12, 0)),
 }
 
 MINIMUM_CLANG_VERSION = (3, 3, 0)
@@ -71,6 +72,7 @@ CUDA_CLANG_VERSIONS: VersionMap = {
     '11.5': (MINIMUM_CLANG_VERSION, (13, 0)),
     '11.6': (MINIMUM_CLANG_VERSION, (14, 0)),
     '11.7': (MINIMUM_CLANG_VERSION, (14, 0)),
+    '11.8': (MINIMUM_CLANG_VERSION, (14, 0)),
 }
 
 __all__ = ["get_default_build_root", "check_compiler_ok_for_platform", "get_compiler_abi_compatibility_and_version", "BuildExtension",
